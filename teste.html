@@ -1,51 +1,49 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Document</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <style>
+        .vermelho{
+            background-color: red;
+        }
+        .azul{
+            background-color: blue;
+        }
+        .verde{
+            background-color: green;
+        }
+    </style>
 </head>
 <body>
-    <div class="container text-center">
+    <div class="container-fluid">
         <div class="row">
-            <div class="vermelho"></div>
-          <div class="col-6">
-            Column1
-          </div>
-          <div class="col-3">
-            <div class="amarelo"></div>
-            Column2
-          </div>
-          <div class="col-3"></div>
-          <div class="azul"></div>
-            Column3
-          </div>
+            <div class="col-6">
+                <div class="vermelho">
+                    Column 1
+                </div>              
+            </div>
+            <div class="col-3">
+                <div class="azul">
+                    Column 2
+                </div>
+            </div>
+            <div class="col-2">
+                <div class="verde">
+                    Column 3
+                </div>
+            </div>
+            <div class="col-1 offset-md-4">
+                <div class="verde">
+                    Column 4
+                </div>
+            </div>
         </div>
-      </div>
-  <div class="conteiner"></div>
-  <!-- <Aqui vai o menu de navegação > -->
-  </header>
-   <main>
-     <section>
-      <!-- aqui vai um breve comentario sobre mim -->
-     </section>
-     <section>
-        <!-- aqui vai aparecer 4 cards mostrando os cursos -->
-     </section>
-     <section>
-      <!-- aqui vou listar as minhas principais competencias sociais -->
-      <!-- vou usar  um componente  chamado acordeon do bootsrsp -->
+    </div>
 
-     </section>
-     <section>
-      <!-- aqui vai o for mulario de contato -->
-     </section>
-   </main>
-   <footer>
-    <!-- aqui vao as informaçoes gerais sobre o desenvolvimento deste site                                                                                                         -->
-   </footer>
- <div>
-
+    
+    <script src="js/bootstrap.js"></script>
 </body>
 </html>
